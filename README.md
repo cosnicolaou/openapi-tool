@@ -1,2 +1,3 @@
 # openapi-tool
-A command line tool for working with openapi/swagger specifications.
+
+A command line tool for working with and transforming openapi/swagger specifications.
