@@ -12,23 +12,23 @@ import (
 
 const spec = `
 name: openapi
-summary: command line for manipulating openapi specs
+summary: command line for manipulating openapi/swagger specifications.
 commands:
   - name: download
-    summary: download an openapi specification
+    summary: download a specification.
     arguments:
       - url
   - name: format
-    summary: format an openapi spec.
+    summary: format a specification.
     arguments:
       - filename
   - name: transform
-    summary: edit an openapi v3 specification using a set of built in transformations
+    summary: modify an openapi v3 specification using a set of built in transformations
              and rewrites.
     arguments:
       - filename
   - name: validate
-    summary: validate an openapi v3 spec.
+    summary: validate an openapi v3 specification.
     arguments:
       - filename
   - name: convert
@@ -36,7 +36,7 @@ commands:
     arguments:
       - filename
   - name: inspect
-    summary: display the element at a path in an openapi v3 specification
+    summary: display the element at a path in an openapi v3 specification.
     arguments:
       - filename
 `
