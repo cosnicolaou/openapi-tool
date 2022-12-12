@@ -18,5 +18,3 @@ require (
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 )
-
-replace github.com/getkin/kin-openapi => github.com/cosnicolaou/kin-openapi v0.110.1-0.20221212193625-73a5bd92029b
